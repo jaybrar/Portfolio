@@ -1,7 +1,7 @@
 <div class="col m9 l10">
 	{{#each projects as |project|}}
 	<div id="{{project.id}}" class="section scrollspy">
-		<h2 class="header"><a href="{{project.url}}">{{project.name}}</a></h2>
+		<h2 class="header"><a target="_blank" href="{{project.url}}">{{project.name}}</a></h2>
 		<p style="margin-bottom: 20px;">{{project.description}}</p>
 		<img class="materialboxed" width="100%" src="{{project.image_url}}">
 	</div>
