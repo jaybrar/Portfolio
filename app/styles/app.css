@@ -1,3 +1,6 @@
+/*body {
+	background: black;
+}*/
 /******************************** nav ***************************/
 nav ul li:hover{
 	background: #8e24aa;
@@ -21,14 +24,31 @@ h3{
 	opacity: .8;
 }
 #story{
-	color: white;
+	color: #40c4ff;
+	font-size: 18px;
+	transition: color 1s, box-shadow 1s;
+	padding: 10px;
+}
+#story i {
+	color: gray;
+	transition: opacity 1s;
+}
+#story:hover {
+	color: #fafafa;
+	box-shadow: 0px 0px 60px 8px rgba(0,255,0,1);
+	transition: color 1s, box-shadow 1s;
+	cursor: default;
+}
+#story:hover i {
+	opacity: 0;
+	transition: opacity 1s;
 }
 .container{
 	padding-bottom: 20px;
 }
 /****************************** parralax page ******************************/
 .parallax-container {
-      height: 200px;
+      height: 300px;
 }
 /***************************** projects page ******************************/
 .container1{
